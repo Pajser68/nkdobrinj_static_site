@@ -102,6 +102,20 @@ blockquote {
   background-position: center center;
 }
 
+@media (max-width: 768px) {
+  #backgroundImageNostalgic {
+    height: 40vh;
+    min-height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  #backgroundImageNostalgic {
+    height: 30vh;
+    min-height: 200px;
+  }
+}
+
 #columnText {
 display:flex;
 justify-content:space-between;
