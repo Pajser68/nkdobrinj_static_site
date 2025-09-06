@@ -94,9 +94,12 @@ blockquote {
 
 #backgroundImageNostalgic {
   background-image: url('resources/nostalgic_resized.jpg');
-  height: 400px;
+  height: 50vh;
+  min-height: 300px; 
+  max-height: 500px; 
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
 }
 
 #columnText {
